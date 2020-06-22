@@ -3,10 +3,15 @@
     <head>
         <title>Page test</title>
         <meta charset="utf-8" />
-        
+        <script type="text/javascript" src="js/main.js"></script>
     
     </head>
     <body>
        <h1>My Page</h1>
+       <button type="button" onclick="mensagem()">Clique aqui</button>
+       <p id="agradecimento" onclick="redirecionar()"></p>
+       <!--this referencia o proprio elemento-->
+       <p onmouseover="trocar(this)" onmouseout="voltar(this)">Passe o mouse aqui</p>
+       <p onmouseover="trocar(this)" onmouseout="voltar(this)">Passe o mouse aqui</p>
     </body>
 </html>
